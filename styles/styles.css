@@ -20,8 +20,15 @@ body {
     margin: 0px;
 }
 
+a img {
+    -webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
 a:hover img {
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .paragraph-1 {
