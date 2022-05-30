@@ -7,17 +7,37 @@
     --text-color: rgb(241, 219, 219);
 }
 
+nav {
+    text-align: left!important;
+    background-color: rgb(30, 30, 40);
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    margin: 1.2%;
+    color: var(--text-color);
+    font-family: 'Nunito Sans', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 120%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 body {
     text-align: center;
     background-image: 
     url("../assets/wavesOpacity.svg"),
     linear-gradient(
         90deg, 
-        rgb(72, 72, 82) 30%,
+        rgb(70, 70, 80) 30%,
         rgb(28, 28, 38) 100%
     );
     background-position: center bottom, left top;
     margin: 0px;
+    margin-top: 0px;
 }
 
 a img {
@@ -32,6 +52,7 @@ a:hover img {
 }
 
 .paragraph-1 {
+    float: left;
     color: var(--text-color);
     font-family: 'Nunito Sans', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
     font-size: 150%;
@@ -53,7 +74,10 @@ a:hover img {
     margin: 2%;
     width: 12%;
     height: 12%;
-    transform: rotate(45deg);
+}
+
+#icon:hover {
+    transform: rotate(-45deg)!important;
 }
 
 #main-button {
@@ -73,10 +97,22 @@ a:hover img {
     text-align: left;
 }
 
+#from {
+    font-family: var(--main-font);
+    font-size: 150%;
+    color: rgb(162, 162, 179)
+}
+
 #subtitle {
     font-family: var(--main-font);
     font-size: 200%;
     color: rgb(182, 177, 194);
+}
+
+#author {
+    font-family: var(--main-font);
+    font-size: 90%;
+    color: rgb(219, 219, 243);
 }
 
 #video {
@@ -95,6 +131,11 @@ a:hover img {
     font-size: 120%;
     color: rgb(120, 120, 140);
     text-align: center;
+}
+
+#footer-text:hover {
+    text-decoration: underline;
+    text-underline-offset: 3%;
 }
 
 #footer-image {
