@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
 
 :root {
@@ -9,21 +9,25 @@
 
 body {
     text-align: center;
-    background-image: linear-gradient(
+    background-image: 
+    url("../assets/wavesOpacity.svg"),
+    linear-gradient(
         90deg, 
-        rgb(28, 28, 38) 30%, 
-        rgb(72, 72, 82) 100%
+        rgb(72, 72, 82) 30%,
+        rgb(28, 28, 38) 100%
     );
+    background-position: center bottom, left top;
+    margin: 0px;
 }
 
-footer {
-    margin-top: 15%;
+a:hover img {
+    transform: scale(1.2);
 }
 
 .paragraph-1 {
     color: var(--text-color);
-    font-family: 'Montserrat', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
-    font-size: 25px;
+    font-family: 'Nunito Sans', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 150%;
     text-align: left;
     margin-left: 45%;
     margin-right: 5%;
@@ -40,8 +44,8 @@ footer {
 
 #icon {
     margin: 2%;
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
     transform: rotate(45deg);
 }
 
@@ -57,14 +61,14 @@ footer {
 
 #main-text {
     font-family: var(--main-font);
-    font-size: 80px;
+    font-size: 500%;
     color: var(--text-color);
     text-align: left;
 }
 
 #subtitle {
     font-family: var(--main-font);
-    font-size: 30px;
+    font-size: 200%;
     color: rgb(182, 177, 194);
 }
 
@@ -73,14 +77,19 @@ footer {
     border-radius: 4%;
 }
 
+#cartoon-turtle {
+    width: 10%;
+    height: 10%;
+    margin-right: 95%;
+}
+
 #footer-text {
     font-family: 'Geneva', 'Verdana', 'sans-serif';
-    font-size: 20px;
+    font-size: 120%;
     color: rgb(120, 120, 140);
     text-align: center;
 }
 
 #footer-image {
-    width: 3%;
-    height: 3%;
+    height: 50px;
 }
