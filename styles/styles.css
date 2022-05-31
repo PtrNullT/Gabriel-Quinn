@@ -23,18 +23,19 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: rgb(202, 202, 235);
+    text-decoration-style: underline;
 }
 
 body {
     text-align: center;
     background-image: 
-    url("../assets/wavesOpacity.svg"),
-    linear-gradient(
-        90deg, 
-        rgb(70, 70, 80) 30%,
-        rgb(28, 28, 38) 100%
-    );
+        url("../assets/wavesOpacity.svg"),
+        linear-gradient(
+            90deg, 
+            rgb(70, 70, 80) 30%,
+            rgb(28, 28, 38) 100%
+        );
     background-position: center bottom, left top;
     margin: 0px;
     margin-top: 0px;
@@ -57,6 +58,11 @@ a img {
     margin-right: 5%;
     width: 50%;
     line-height: 140%;
+}
+
+.credits {
+    font-size: 100%;
+    color: rgb(241, 241, 198)
 }
 
 #bar {
