@@ -129,6 +129,7 @@ a img {
 
 #cartoon-turtle:hover {
     content: url("../assets/turtle-speech.svg");
+    transform: scale(1.15);
 }
 
 #footer-text {
