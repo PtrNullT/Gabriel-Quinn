@@ -47,10 +47,6 @@ a img {
 	transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
-a:hover img {
-    transform: scale(1.3);
-}
-
 .paragraph-1 {
     float: left;
     color: var(--text-color);
@@ -121,9 +117,12 @@ a:hover img {
 }
 
 #cartoon-turtle {
-    width: 10%;
-    height: 10%;
+    height: 200px;
     margin-right: 95%;
+}
+
+#cartoon-turtle:hover {
+    content: url("../assets/turtle-speech.svg");
 }
 
 #footer-text {
@@ -140,4 +139,8 @@ a:hover img {
 
 #footer-image {
     height: 50px;
+}
+
+#footer-image:hover {
+    transform: scale(1.3);
 }
