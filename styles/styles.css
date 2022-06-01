@@ -1,9 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 :root {
     --main-font: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    --secondary-font: 'Space Grotesk', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
     --text-color: rgb(241, 219, 219);
 }
 
@@ -18,13 +20,14 @@ nav a {
     text-align: center;
     margin: 1.2%;
     color: var(--text-color);
-    font-family: 'Nunito Sans', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
+    font-family: var(--secondary-font);
     font-size: 120%;
+    text-decoration: none;
 }
 
 nav a:hover {
     color: rgb(202, 202, 235);
-    text-decoration-style: underline;
+    text-decoration: underline;
 }
 
 body {
@@ -51,7 +54,7 @@ a img {
 .paragraph-1 {
     float: left;
     color: var(--text-color);
-    font-family: 'Nunito Sans', 'Segoe UI', 'Geneva', 'Verdana', 'sans-serif';
+    font-family: var(--secondary-font);
     font-size: 150%;
     text-align: left;
     margin-left: 45%;
@@ -60,8 +63,23 @@ a img {
     line-height: 140%;
 }
 
+.paragraph-center {
+    float: left;
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-size: 150%;
+    text-align: left;
+    width: 50%;
+    line-height: 140%;
+    margin-left: 30%;
+}
+
+.credits-items {
+    padding-left: 3%;
+}
+
 .credits {
-    font-size: 100%;
+    font-size: 110%;
     color: rgb(241, 241, 198)
 }
 
@@ -80,6 +98,17 @@ a img {
 
 #icon:hover {
     transform: rotate(-45deg)!important;
+}
+
+#icon-2 {
+    margin: 2%;
+    width: 12%;
+    height: 12%;
+    transform: rotate(15deg);
+}
+
+#star {
+    width: 3%;
 }
 
 #main-button {
@@ -118,7 +147,9 @@ a img {
 }
 
 #video {
-    margin-right: 50%;
+    margin: 5%;
+    margin-top: 0px!important;
+    justify-content: center;
     border-radius: 4%;
 }
 
@@ -130,6 +161,44 @@ a img {
 #cartoon-turtle:hover {
     content: url("../assets/turtle-speech.svg");
     transform: scale(1.15);
+}
+
+#turtle-icon {
+    width: 15%;
+    margin-right: 0px;
+    -webkit-transition: -webkit-transform 1s;
+	transition: -webkit-transform 17s;
+	transition: transform 1s;
+	transition: transform 1s, -webkit-transform 1s;
+}
+
+#turtle-icon:hover {
+    transform: translateX(-60%)
+}
+
+#link-to-info {
+    color: rgb(185, 185, 233); 
+    text-decoration: none;
+}
+
+#link-to-info:hover {
+    text-decoration: underline;
+}
+
+#break {
+    margin-top: 25%;
+    justify-content: center!important;
+    color: white;
+    width: 25%;
+}
+
+#enjoy {
+    margin-top: 3%;
+    justify-content: center!important;
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-size: 300%;
+    text-align: center;
 }
 
 #footer-text {
