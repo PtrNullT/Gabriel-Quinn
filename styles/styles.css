@@ -88,6 +88,8 @@ a img {
     border-width: 10px;
     border-radius: 10px;
     border-color: black;
+    color: black;
+    background-color: black;
 }
 
 #icon {
@@ -189,6 +191,8 @@ a img {
     margin-top: 25%;
     justify-content: center!important;
     color: white;
+    border: 1px solid white;
+    background-color: white;
     width: 25%;
 }
 
