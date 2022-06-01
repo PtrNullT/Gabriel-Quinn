@@ -167,7 +167,8 @@ a img {
 
 #turtle-icon {
     width: 15%;
-    margin-right: 0px;
+    margin-top: 25%;
+    margin-right: 5%;
     -webkit-transition: -webkit-transform 1s;
 	transition: -webkit-transform 17s;
 	transition: transform 1s;
@@ -191,9 +192,10 @@ a img {
     margin-top: 25%;
     justify-content: center!important;
     color: white;
-    border: 1px solid white;
+    border: 1% solid white;
     background-color: white;
     width: 25%;
+    border-radius: 10%;
 }
 
 #enjoy {
