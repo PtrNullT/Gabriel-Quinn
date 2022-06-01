@@ -83,6 +83,10 @@ a img {
     color: rgb(241, 241, 198)
 }
 
+.small-emoji {
+    width: 1.7%;
+}
+
 #bar {
     width: 50%;
     border-width: 10px;
